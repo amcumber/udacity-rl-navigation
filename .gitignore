@@ -157,5 +157,8 @@ dogImages/
 *.gz
 data/
 old_runs/
+archive/
 
+# ML-Agents
+python/
 
