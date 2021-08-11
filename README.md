@@ -1,16 +1,17 @@
 # Banana Navigation using Deep Q-Network (DQN) and Double DQN
 
+CITATION: This project is derived from Udacity's Deep Reinforement Learning Project - Navigation
+
 Author: Aaron McUmber, Ph.D.
 
-Date: 2021-09-05
+Date: 2021-08-05
 
 ## Introduction
 
 This project demonstrates two agents, one using Deep Q-Networks (DQN)
 and the second using Double Deep Q-Networks (DDQN) to navigate a
 square world to collect yellow bananas and avoid blue bananas
-within a Unity ml-agent Environment. (Described here)[
-https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md]
+within a Unity ml-agent Environment. [Described here](https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md)
 
 The Agent is rewarded with +1 point for collecting yellow bananas
 and rewarded -1 point for collecting blue bananas. The state space
@@ -32,10 +33,9 @@ over 100 consecutive episodes
 
 * Download the supporting modules:
 1. Unity ml-agents version 0.4.0 module along with it's required dependencies: 
-(here)[https://github.com/Unity-Technologies/ml-agents]
+[here](https://github.com/Unity-Technologies/ml-agents)
 2. A built version of the Unity environment provided by the 
-(problem statement repo)[
-https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md] 
+[problem statement repo](https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md)
 as a direct executable for the target environment.- *Note: be
 sure to select the correct environment for your machine*
 
